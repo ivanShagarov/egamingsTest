@@ -1,5 +1,9 @@
 <div class="container cf">
-    <div>
-       <h2>casino</h2>
-    </div>
+    
+        <div id="games-list">
+            <span ng-repeat="game in main.games">                        
+                <a href="#/" rel="nofollow"><img src="images/{{game.filename}}" alt=""></a>
+            </span>
+        </div>
+
 </div>

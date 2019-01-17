@@ -19,6 +19,18 @@
     // 'controller as' syntax
     var self = this;
 
+    self.title = "test";
+
+    self.games = [{
+        id: 0,
+        filename: 'dragon_tiger.jpg',
+    },{
+        id: 0,
+        filename: 'blaze.jpg',
+    },{
+        id: 0,
+        filename: 'live_vip.jpg',
+    }];
 
     ////////////  function definitions
 

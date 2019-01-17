@@ -237,7 +237,7 @@ MAIN PAGE
 
 .play-big {
 	color: white;
-	padding: 20px 0 0 20px; 
+	padding: 70px 0 0 20px; 
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -247,6 +247,7 @@ MAIN PAGE
 	margin: 20px 0 0 0; 
 	font-size: 20px;
 	font-weight: bold;
+	width: 235px;
 }
 
 .enter {
@@ -315,12 +316,24 @@ MAIN PAGE
 }
 
 
+#games-list {
+	display: inline-block;
+	margin-left: 20px;
+	img {
+		width: 188px;
+	}
+	vertical-align: top;
+}
 
+.categories {
+	margin-top: 20px; 
+}
 
 
 /*Acco*/
 .ac-container {
 	max-width: 400px;
+	display: inline-block;
 }
 
 .ac-container label {
@@ -354,7 +367,6 @@ MAIN PAGE
 
 .ac-container {
 	width: 100%;
-	margin: 10px auto 30px auto;
 	text-align: left;
 }
 
@@ -436,7 +448,29 @@ MAIN PAGE
 }
 
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 
 
 /*********************
