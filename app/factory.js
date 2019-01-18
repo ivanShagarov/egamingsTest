@@ -4,11 +4,11 @@
     .module('boilerplate')
     .factory('getDataFromAPI', getDataFromAPI);
 
-  getDataFromAPI.$inject = ['$http', 'LocalStorage'];
+  getDataFromAPI.$inject = ['$http'];
 
   ////////////
 
-  function getDataFromAPI($http, LocalStorage) {
+  function getDataFromAPI($http) {
 
     return {
       loadData: loadData
